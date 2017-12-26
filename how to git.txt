@@ -1,0 +1,19 @@
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+
+1. Create repository in https://github.com/dobromir-nikiforov and copy link( https://github.com/dobromir-nikiforov/first-git.git )
+2. Go to folder project and run git bash
+3. In bash:
+	git init
+	git add .
+	git commit -m "First commit"
+	git remote add origin https://github.com/dobromir-nikiforov/first-git.git
+	git push origin master
+
+
+
+
+4. When you want to update this repo
+	git add .
+	git commit -m "Some message"
+	git push origin master
